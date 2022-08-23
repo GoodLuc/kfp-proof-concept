@@ -1,18 +1,27 @@
+<script setup>
+import MapView from "../components/MapView.vue";
+</script>
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <el-container>
+    <el-header class="main-header"><h1>Permit Request for Filming in Public Spaces</h1></el-header>
+    <el-main>Main</el-main>
+  </el-container>
+  <el-button type="primary">Primary</el-button>
+  <!--  <MapView /> -->
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+<style lang="scss" scoped>
+body {
+  height: 100vh;
+  width: 100%;
 }
-</script>
+.main-header {
+  background: #80ed99;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

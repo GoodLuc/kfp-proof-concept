@@ -5,10 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "copy": "ncp ./node_modules/@arcgis/core/assets ./public/assets"
   },
   "dependencies": {
+    "@arcgis/core": "^4.24.7",
+    "@arcgis/webpack-plugin": "^4.22.0",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.14",
+    "esri-loader": "^3.6.0",
+    "mapbox-gl": "^2.9.2",
+    "ncp": "^2.0.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
