@@ -5,7 +5,13 @@ import MapView from "../components/MapView.vue";
 <template>
   <el-container>
     <el-header class="main-header"><h1>Permit Request for Filming in Public Spaces</h1></el-header>
-    <el-main>Main</el-main>
+    <el-main>
+      <article>
+        <h2>State resolution regarding the use of public space for film production activities</h2>
+        <p>When submiting your Permit Request, available sidewalk area must be taken into account.</p>
+        <p></p>
+      </article>
+    </el-main>
   </el-container>
   <el-button type="primary">Primary</el-button>
   <!--  <MapView /> -->
