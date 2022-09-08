@@ -42,14 +42,14 @@ onMounted(() => {
       tilt: 45,
     },
 
-    qualityProfile: "high",
+    qualityProfile: "low",
     environment: {
       lighting: {
-        directShadowsEnabled: true,
-        ambientOcclusionEnabled: true,
+        directShadowsEnabled: false,
+        ambientOcclusionEnabled: false,
       },
       atmosphere: {
-        quality: "high",
+        quality: "low",
       },
     },
 
